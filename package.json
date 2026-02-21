@@ -1,0 +1,31 @@
+{
+  "name": "env-diff",
+  "version": "1.0.0",
+  "description": "CLI tool to compare two .env files and show differences",
+  "main": "cli.js",
+  "bin": {
+    "env-diff": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "env",
+    "diff",
+    "dotenv",
+    "environment",
+    "cli",
+    "configuration",
+    "compare"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
